@@ -1,0 +1,7 @@
+<import src="../lib/tabbar" />
+
+<template is="tab-bar" data="{{tabbarConfig}}" />
+
+<text>
+  This is page2
+</text>

@@ -1,0 +1,16 @@
+<template name="tab-bar">
+  <view class="tab-bar-wrap {{tabbarConfig.position ? 'hasposition' : ''}} {{tabbarConfig.position}}" style="{{tabbarConfig.wrapStyle}}" >
+    <block wx:for="{{tabbarConfig.list}}" wx:key="{{item.key}}">
+      <view class="tab-bar-item" data-key="{{item.key}}" data-cursor="{{tabbarConfig.cursor}}" data-url="{{item.pagePath}}" ontap="bindTabBarTap" style="{{tabbarConfig.itemStyle}}; {{tabbarConfig.cursor === item.key ? tabbarConfig.itemSelectedStyle : '' }}">
+        <view class="tab-bar-icon">
+          <view class="tab-bar-hint default" wx:if="{{item.hint === true}}"></view>
+          <view class="tab-bar-hint count" wx:elif="{{item.hint > 0}}">{{item.hint}}</view>
+          <image src="{{tabbarConfig.cursor === item.key ? item.selectedIconPath : item.iconPath}}"></image>
+        </view>
+        <view class="tab-bar-title">
+          <text>{{item.title}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>

@@ -1,0 +1,39 @@
+{
+  "name": "weapp-custom-tabbar",
+  "version": "1.0.0",
+  "description": "a custom tab bar with WeChat mini-APP",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiasm/weapp-custom-tabbar.git"
+  },
+  "author": "jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiasm/weapp-custom-tabbar/issues"
+  },
+  "homepage": "https://github.com/Jiasm/weapp-custom-tabbar#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
+    "eslint": "^3.9.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sequence": "^0.4.6",
+    "node-sass": "^3.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

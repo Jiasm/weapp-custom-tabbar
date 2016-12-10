@@ -1,0 +1,48 @@
+/**
+ * go to hell, the fucking ****** ****-***
+ */
+.__base__ {
+  position   : relative;
+
+  box-sizing : border-box;
+  margin     : 0;
+  padding    : 0;
+
+  line-height: 1;
+}
+
+action-sheet,
+canvas,
+checkbox,
+form,
+icon,
+image,
+input,
+label,
+loading,
+map,
+modal,
+navigator,
+picker,
+progress,
+radio,
+scroll-view,
+slider,
+swiper,
+switch,
+text,
+textarea,
+toast,
+video,
+view {
+  @extend .__base__;
+
+  &::after,
+  &::before {
+    @extend .__base__;
+  }
+}
+
+button {
+  @extend .__base__;
+}

@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/demo/page1",
+    "pages/demo/page2"
+  ],
+  "window": {
+    "navigationBarTitleText": "loading",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0068C4"
+  }
+}
